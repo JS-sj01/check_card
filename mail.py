@@ -56,8 +56,8 @@ if __name__ == "__main__":
     data = {
         "subject": "sshExeCMD+date( %F )",
         "content": "英文",
-        "receiver": "1185904857@qq.com"
+        "receiver": "1xxxxx@qq.com"
     }
-    msg = NMail(username="suj@tecorigin.com", password="bsxiSF8odxR97Vkg")
+    msg = NMail(username="suj@xxxxx.com", password="bxxxxx")
     msg.send_email(data)
 
