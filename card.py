@@ -28,10 +28,10 @@ def search():
          data = {
             "subject":  "10.10.13.41 card lost " + str(nowTime),
             "content":  "10.10.13.41 card lost.....",
-            "receiver": 'xsc@tecorigin.com,tecorigin_ops@tecorigin.com,yanghj@tecorigin.com'
-            #"receiver": "tecorigin_ops@tecorigin.com"
+            "receiver": 'xsc@XXXX.com,XXXXX@XXX.com,yanghj@XXXXX.com'
+            #"receiver": "XXXXX@XXXX.com"
          }     
-         msg = NMail(username="suj@tecorigin.com", password="bsxiSF8odxR97Vkg")
+         msg = NMail(username="suj@XXXX.com", password="bXXXX")
          msg.send_email(data)
          with open('/root/card/env_restart41/state','w',encoding='utf-8') as f:
              w = f.write('0' + str(nowTime))
